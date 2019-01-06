@@ -30,8 +30,8 @@ class m190104_163855_migration extends Migration
 	    'username' => $this->string(256)->notNull(),
 		], $tableOptions);
 
-		$this->createTable('user_opts', [
-		'username' => $this->string(32)->notNull(),
+		$this->createTable('useropts', [
+		'id' => $this->primaryKey(),
 		'map_height' => $this->integer(11)->notNull(),
 	    'map_width' => $this->integer(11)->notNull(),
 		], $tableOptions);
@@ -45,9 +45,10 @@ class m190104_163855_migration extends Migration
      */
     public function down()
     {
-         $this->dropTable('{{users}}');
-		 $this->dropTable('{{queries}}');
-		 $this->dropTable('{{user_opts}}');
+
+    $this->dropTable('{{users}}');
+	$this->dropTable('{{queries}}');
+	$this->dropTable('{{useropts}}');
 
         return false;
     }

@@ -1,5 +1,5 @@
 <?php
-namespace kouosl\harita\controllers\frontend;
+namespace vendor\kouosl\harita\controllers\frontend;
 
 
 /**
@@ -11,6 +11,10 @@ class DefaultController extends \kouosl\base\controllers\frontend\BaseController
      * Renders the index view for the module
      * @return string
      */
+	 public function actionMap()
+    {
+        return $this->render('map');
+    }
     public function actionIndex()
     {
         return $this->render('_index');
