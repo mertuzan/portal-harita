@@ -1,5 +1,5 @@
 <?php
-namespace kouosl\harita\controllers\backend;
+namespace vendor\kouosl\harita\controllers\backend;
 
 
 /**
