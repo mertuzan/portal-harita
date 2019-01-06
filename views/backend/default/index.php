@@ -35,8 +35,8 @@
         <p>
 
             <p></p>
-            <a class="btn btn-lg btn-success" href="http://portal.kouosl/harita/users/index">Users</a>
-            <a class="btn btn-lg btn-success" href="http://portal.kouosl/harita/useropts/index">Map Settings</a>
+            <a class="btn btn-lg btn-success" href="/admin/harita/users/index">Users</a>
+            <a class="btn btn-lg btn-success" href="/admin/harita/useropts/index">Map Settings</a>
         </p>
     </div>
 </div>
