@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\kouosl\harita\controllers\frontend;
+namespace kouosl\harita\controllers\frontend;
 
 use Yii;
 use vendor\kouosl\harita\models\Queries;
